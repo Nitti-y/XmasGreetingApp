@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D24ED36F1E06DE520052A3E7 /* card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D24ED36E1E06DE520052A3E7 /* card.jpg */; };
+		D24ED3731E06EE820052A3E7 /* boots&present.png in Resources */ = {isa = PBXBuildFile; fileRef = D24ED3721E06EE820052A3E7 /* boots&present.png */; };
+		D24ED3751E06F04E0052A3E7 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = D24ED3741E06F04E0052A3E7 /* bell.png */; };
+		D24ED3781E06F22E0052A3E7 /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D24ED3761E06F22E0052A3E7 /* moon.jpg */; };
+		D24ED3791E06F22E0052A3E7 /* XmasTree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D24ED3771E06F22E0052A3E7 /* XmasTree.jpg */; };
+		D24ED37B1E06F79A0052A3E7 /* goldBoots.png in Resources */ = {isa = PBXBuildFile; fileRef = D24ED37A1E06F79A0052A3E7 /* goldBoots.png */; };
+		D24ED37D1E06F9560052A3E7 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = D24ED37C1E06F9560052A3E7 /* tree.png */; };
 		D268CE1C1E06D82C0033DD87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE1B1E06D82C0033DD87 /* AppDelegate.swift */; };
-		D268CE1E1E06D82C0033DD87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE1D1E06D82C0033DD87 /* ViewController.swift */; };
+		D268CE1E1E06D82C0033DD87 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE1D1E06D82C0033DD87 /* TopViewController.swift */; };
 		D268CE211E06D82C0033DD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D268CE1F1E06D82C0033DD87 /* Main.storyboard */; };
 		D268CE231E06D82C0033DD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D268CE221E06D82C0033DD87 /* Assets.xcassets */; };
 		D268CE261E06D82C0033DD87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D268CE241E06D82C0033DD87 /* LaunchScreen.storyboard */; };
 		D268CE311E06D82C0033DD87 /* XmasGreetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE301E06D82C0033DD87 /* XmasGreetingTests.swift */; };
 		D268CE3C1E06D82C0033DD87 /* XmasGreetingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE3B1E06D82C0033DD87 /* XmasGreetingUITests.swift */; };
+		D268CE4A1E06DBA70033DD87 /* TreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE491E06DBA70033DD87 /* TreeViewController.swift */; };
+		D268CE4C1E06DBB60033DD87 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE4B1E06DBB60033DD87 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D24ED36E1E06DE520052A3E7 /* card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card.jpg; sourceTree = "<group>"; };
+		D24ED3721E06EE820052A3E7 /* boots&present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boots&present.png"; sourceTree = "<group>"; };
+		D24ED3741E06F04E0052A3E7 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
+		D24ED3761E06F22E0052A3E7 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpg; sourceTree = "<group>"; };
+		D24ED3771E06F22E0052A3E7 /* XmasTree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = XmasTree.jpg; sourceTree = "<group>"; };
+		D24ED37A1E06F79A0052A3E7 /* goldBoots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldBoots.png; sourceTree = "<group>"; };
+		D24ED37C1E06F9560052A3E7 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
 		D268CE181E06D82C0033DD87 /* XmasGreeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XmasGreeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D268CE1B1E06D82C0033DD87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D268CE1D1E06D82C0033DD87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D268CE1D1E06D82C0033DD87 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		D268CE201E06D82C0033DD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D268CE221E06D82C0033DD87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D268CE251E06D82C0033DD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,8 @@
 		D268CE371E06D82C0033DD87 /* XmasGreetingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmasGreetingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D268CE3B1E06D82C0033DD87 /* XmasGreetingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmasGreetingUITests.swift; sourceTree = "<group>"; };
 		D268CE3D1E06D82C0033DD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D268CE491E06DBA70033DD87 /* TreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeViewController.swift; sourceTree = "<group>"; };
+		D268CE4B1E06DBB60033DD87 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +115,17 @@
 		D268CE1A1E06D82C0033DD87 /* XmasGreeting */ = {
 			isa = PBXGroup;
 			children = (
+				D24ED37C1E06F9560052A3E7 /* tree.png */,
+				D24ED37A1E06F79A0052A3E7 /* goldBoots.png */,
+				D24ED3761E06F22E0052A3E7 /* moon.jpg */,
+				D24ED3771E06F22E0052A3E7 /* XmasTree.jpg */,
+				D24ED3741E06F04E0052A3E7 /* bell.png */,
+				D24ED3721E06EE820052A3E7 /* boots&present.png */,
+				D24ED36E1E06DE520052A3E7 /* card.jpg */,
 				D268CE1B1E06D82C0033DD87 /* AppDelegate.swift */,
-				D268CE1D1E06D82C0033DD87 /* ViewController.swift */,
+				D268CE1D1E06D82C0033DD87 /* TopViewController.swift */,
+				D268CE491E06DBA70033DD87 /* TreeViewController.swift */,
+				D268CE4B1E06DBB60033DD87 /* CardViewController.swift */,
 				D268CE1F1E06D82C0033DD87 /* Main.storyboard */,
 				D268CE221E06D82C0033DD87 /* Assets.xcassets */,
 				D268CE241E06D82C0033DD87 /* LaunchScreen.storyboard */,
@@ -193,6 +220,7 @@
 				TargetAttributes = {
 					D268CE171E06D82C0033DD87 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8V64VANYRR;
 					};
 					D268CE2B1E06D82C0033DD87 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,9 +257,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24ED3781E06F22E0052A3E7 /* moon.jpg in Resources */,
+				D24ED37D1E06F9560052A3E7 /* tree.png in Resources */,
+				D24ED3751E06F04E0052A3E7 /* bell.png in Resources */,
 				D268CE261E06D82C0033DD87 /* LaunchScreen.storyboard in Resources */,
+				D24ED36F1E06DE520052A3E7 /* card.jpg in Resources */,
 				D268CE231E06D82C0033DD87 /* Assets.xcassets in Resources */,
+				D24ED3731E06EE820052A3E7 /* boots&present.png in Resources */,
+				D24ED37B1E06F79A0052A3E7 /* goldBoots.png in Resources */,
 				D268CE211E06D82C0033DD87 /* Main.storyboard in Resources */,
+				D24ED3791E06F22E0052A3E7 /* XmasTree.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D268CE1E1E06D82C0033DD87 /* ViewController.swift in Sources */,
+				D268CE4C1E06DBB60033DD87 /* CardViewController.swift in Sources */,
+				D268CE1E1E06D82C0033DD87 /* TopViewController.swift in Sources */,
+				D268CE4A1E06DBA70033DD87 /* TreeViewController.swift in Sources */,
 				D268CE1C1E06D82C0033DD87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = XmasGreeting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nishimura.XmasGreeting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +450,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = XmasGreeting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nishimura.XmasGreeting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +525,7 @@
 				D268CE421E06D82C0033DD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D268CE431E06D82C0033DD87 /* Build configuration list for PBXNativeTarget "XmasGreetingTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +534,7 @@
 				D268CE451E06D82C0033DD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D268CE461E06D82C0033DD87 /* Build configuration list for PBXNativeTarget "XmasGreetingUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +543,7 @@
 				D268CE481E06D82C0033DD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
