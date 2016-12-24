@@ -24,6 +24,7 @@
                                 <rect key="frame" x="218" y="451" width="125" height="143"/>
                                 <state key="normal" backgroundImage="tree.png"/>
                                 <connections>
+                                    <action selector="tapTreeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nRq-ij-aK8"/>
                                     <segue destination="yOJ-u4-8Bd" kind="presentation" id="Ytz-wQ-g1L"/>
                                 </connections>
                             </button>
@@ -52,10 +53,25 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adW-eB-SQy">
-                                <rect key="frame" x="138" y="443" width="74" height="100"/>
+                                <rect key="frame" x="131" y="434" width="74" height="100"/>
                                 <state key="normal" backgroundImage="boots&amp;present.png"/>
                                 <connections>
+                                    <action selector="tapBootsButton:" destination="yOJ-u4-8Bd" eventType="touchUpInside" id="eNN-k9-iCt"/>
                                     <segue destination="BKY-Vu-7M3" kind="presentation" id="TnG-dw-TW2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XyD-8N-bAJ">
+                                <rect key="frame" x="194" y="196" width="52" height="52"/>
+                                <state key="normal" backgroundImage="bell.png"/>
+                                <connections>
+                                    <action selector="tapBellButton:" destination="yOJ-u4-8Bd" eventType="touchUpInside" id="71g-Ri-nNe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdu-aw-Xd7">
+                                <rect key="frame" x="140" y="311" width="46" height="46"/>
+                                <state key="normal" backgroundImage="goldBoots.png"/>
+                                <connections>
+                                    <action selector="tapGoldBootsButton:" destination="yOJ-u4-8Bd" eventType="touchUpInside" id="Zdj-3z-JO8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -89,9 +105,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uR9-83-rD2">
-                                <rect key="frame" x="226" y="455" width="124" height="31"/>
+                                <rect key="frame" x="214" y="453" width="136" height="31"/>
                                 <color key="backgroundColor" red="0.048126122901146484" green="0.55323543848167533" blue="0.066382071094458248" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
                                 <state key="normal" title="カードをとじる">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -103,6 +120,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="backButton" destination="uR9-83-rD2" id="Rj2-el-TbJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6wb-Fq-V8H" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="G8y-MT-oyU" userLabel="Exit" sceneMemberID="exit"/>
@@ -112,8 +132,10 @@
     </scenes>
     <resources>
         <image name="XmasTree.jpg" width="375" height="667"/>
+        <image name="bell.png" width="525" height="511"/>
         <image name="boots&amp;present.png" width="644" height="874"/>
         <image name="card.jpg" width="375" height="667"/>
+        <image name="goldBoots.png" width="492" height="506"/>
         <image name="moon.jpg" width="375" height="667"/>
         <image name="tree.png" width="830" height="906"/>
     </resources>

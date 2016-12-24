@@ -10,10 +10,13 @@ import UIKit
 
 class CardViewController: UIViewController {
 
+    @IBOutlet weak var backButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        backButton.layer.cornerRadius = 10
+        backButton.layer.masksToBounds = true
     }
 
     override func didReceiveMemoryWarning() {
