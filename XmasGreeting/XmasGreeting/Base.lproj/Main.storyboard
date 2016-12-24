@@ -24,6 +24,7 @@
                                 <rect key="frame" x="218" y="451" width="125" height="143"/>
                                 <state key="normal" backgroundImage="tree.png"/>
                                 <connections>
+                                    <action selector="tapTreeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nRq-ij-aK8"/>
                                     <segue destination="yOJ-u4-8Bd" kind="presentation" id="Ytz-wQ-g1L"/>
                                 </connections>
                             </button>

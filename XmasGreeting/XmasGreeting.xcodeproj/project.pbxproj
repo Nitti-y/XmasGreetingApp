@@ -23,6 +23,8 @@
 		D268CE3C1E06D82C0033DD87 /* XmasGreetingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE3B1E06D82C0033DD87 /* XmasGreetingUITests.swift */; };
 		D268CE4A1E06DBA70033DD87 /* TreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE491E06DBA70033DD87 /* TreeViewController.swift */; };
 		D268CE4C1E06DBB60033DD87 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE4B1E06DBB60033DD87 /* CardViewController.swift */; };
+		D2A743681E0E24E000910A36 /* JingleBells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2A743671E0E24E000910A36 /* JingleBells.mp3 */; };
+		D2A7436A1E0E297400910A36 /* SnowFlakes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2A743691E0E297400910A36 /* SnowFlakes.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		D268CE3D1E06D82C0033DD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D268CE491E06DBA70033DD87 /* TreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeViewController.swift; sourceTree = "<group>"; };
 		D268CE4B1E06DBB60033DD87 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		D2A743671E0E24E000910A36 /* JingleBells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JingleBells.mp3; sourceTree = "<group>"; };
+		D2A743691E0E297400910A36 /* SnowFlakes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SnowFlakes.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 		D268CE1A1E06D82C0033DD87 /* XmasGreeting */ = {
 			isa = PBXGroup;
 			children = (
+				D2A743691E0E297400910A36 /* SnowFlakes.mp3 */,
+				D2A743671E0E24E000910A36 /* JingleBells.mp3 */,
 				D24ED37C1E06F9560052A3E7 /* tree.png */,
 				D24ED37A1E06F79A0052A3E7 /* goldBoots.png */,
 				D24ED3761E06F22E0052A3E7 /* moon.jpg */,
@@ -258,9 +264,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24ED3781E06F22E0052A3E7 /* moon.jpg in Resources */,
+				D2A7436A1E0E297400910A36 /* SnowFlakes.mp3 in Resources */,
 				D24ED37D1E06F9560052A3E7 /* tree.png in Resources */,
 				D24ED3751E06F04E0052A3E7 /* bell.png in Resources */,
 				D268CE261E06D82C0033DD87 /* LaunchScreen.storyboard in Resources */,
+				D2A743681E0E24E000910A36 /* JingleBells.mp3 in Resources */,
 				D24ED36F1E06DE520052A3E7 /* card.jpg in Resources */,
 				D268CE231E06D82C0033DD87 /* Assets.xcassets in Resources */,
 				D24ED3731E06EE820052A3E7 /* boots&present.png in Resources */,
