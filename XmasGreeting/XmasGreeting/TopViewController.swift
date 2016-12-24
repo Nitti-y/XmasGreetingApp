@@ -11,8 +11,8 @@ import AVFoundation
 
 class TopViewController: UIViewController {
 
-    var audioPlayer: AVAudioPlayer!
-    var audioPath: NSURL!
+    var bgmPlayer: AVAudioPlayer!
+    var bgmPath: NSURL!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,21 +32,21 @@ class TopViewController: UIViewController {
     }
     
     func prepareBGM() {
-        audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("SnowFlakes", ofType: "mp3")!)
+        bgmPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("SnowFlakes", ofType: "mp3")!)
     }
     
     func playBGM() {
         do {
-            audioPlayer = try AVAudioPlayer(contentsOfURL: audioPath)
-            audioPlayer.numberOfLoops = -1
-            audioPlayer.play()
+            bgmPlayer = try AVAudioPlayer(contentsOfURL: bgmPath)
+            bgmPlayer.numberOfLoops = -1
+            bgmPlayer.play()
         } catch {
             print("AVAudioPlayer error")
         }
     }
     
     func stopBGM() {
-        audioPlayer.stop()
+        bgmPlayer.stop()
     }
 
 }

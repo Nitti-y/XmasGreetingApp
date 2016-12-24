@@ -25,6 +25,9 @@
 		D268CE4C1E06DBB60033DD87 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268CE4B1E06DBB60033DD87 /* CardViewController.swift */; };
 		D2A743681E0E24E000910A36 /* JingleBells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2A743671E0E24E000910A36 /* JingleBells.mp3 */; };
 		D2A7436A1E0E297400910A36 /* SnowFlakes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2A743691E0E297400910A36 /* SnowFlakes.mp3 */; };
+		D2A7436C1E0E2D4B00910A36 /* SleighBellSingle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2A7436B1E0E2D4B00910A36 /* SleighBellSingle.mp3 */; };
+		D2A7436E1E0E317100910A36 /* JollyLaugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2A7436D1E0E317100910A36 /* JollyLaugh.mp3 */; };
+		D2A743701E0E33BD00910A36 /* Magic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2A7436F1E0E33BD00910A36 /* Magic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		D268CE4B1E06DBB60033DD87 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		D2A743671E0E24E000910A36 /* JingleBells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JingleBells.mp3; sourceTree = "<group>"; };
 		D2A743691E0E297400910A36 /* SnowFlakes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SnowFlakes.mp3; sourceTree = "<group>"; };
+		D2A7436B1E0E2D4B00910A36 /* SleighBellSingle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SleighBellSingle.mp3; sourceTree = "<group>"; };
+		D2A7436D1E0E317100910A36 /* JollyLaugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JollyLaugh.mp3; sourceTree = "<group>"; };
+		D2A7436F1E0E33BD00910A36 /* Magic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Magic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,9 @@
 		D268CE1A1E06D82C0033DD87 /* XmasGreeting */ = {
 			isa = PBXGroup;
 			children = (
+				D2A7436F1E0E33BD00910A36 /* Magic.mp3 */,
+				D2A7436D1E0E317100910A36 /* JollyLaugh.mp3 */,
+				D2A7436B1E0E2D4B00910A36 /* SleighBellSingle.mp3 */,
 				D2A743691E0E297400910A36 /* SnowFlakes.mp3 */,
 				D2A743671E0E24E000910A36 /* JingleBells.mp3 */,
 				D24ED37C1E06F9560052A3E7 /* tree.png */,
@@ -270,11 +279,14 @@
 				D268CE261E06D82C0033DD87 /* LaunchScreen.storyboard in Resources */,
 				D2A743681E0E24E000910A36 /* JingleBells.mp3 in Resources */,
 				D24ED36F1E06DE520052A3E7 /* card.jpg in Resources */,
+				D2A7436E1E0E317100910A36 /* JollyLaugh.mp3 in Resources */,
 				D268CE231E06D82C0033DD87 /* Assets.xcassets in Resources */,
 				D24ED3731E06EE820052A3E7 /* boots&present.png in Resources */,
 				D24ED37B1E06F79A0052A3E7 /* goldBoots.png in Resources */,
 				D268CE211E06D82C0033DD87 /* Main.storyboard in Resources */,
 				D24ED3791E06F22E0052A3E7 /* XmasTree.jpg in Resources */,
+				D2A743701E0E33BD00910A36 /* Magic.mp3 in Resources */,
+				D2A7436C1E0E2D4B00910A36 /* SleighBellSingle.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
